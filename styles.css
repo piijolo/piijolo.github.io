@@ -77,12 +77,18 @@ main {
 /* CSS for page footer */
 
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: maroon;
-  color: white;
+  position: fixed;
+  left: 0;
   bottom: 0;
   width: 100%;
   height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: maroon;
+  color: white;
+}
+
+main {
+  padding-bottom: 4rem; 
 }
